@@ -7,3 +7,6 @@
  is used to retrieve all changes from a remote repository but does not merge them with the current working branch. This means that changes are fetched into your local repository, but you can decide when and how to merge them with your current branch.
 
  Using **git fetch** is safer in situations where you want control over the exact moment of merging changes and want to avoid automatic merging
+
+ `git commit --amend`:
+ allows to modify the most recent commit. It lets you combine staged changes with the previous commit instead of creating an entirely new commit. It can also be used to simply edit the previous commit message without changing its snapshot.
